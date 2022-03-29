@@ -7,8 +7,8 @@ Collection of Kotlin-inspired named tuples (from `Pair` to `Sextuple`). If you n
 Use as a Git dependency in your project (preferably under `dependencies`):
 
 ```yaml
-dependencies:
-    tuples:
-        git: https://github.com/sunderee/tuples.git
-        ref: master
+tuples:
+    git:
+      url: https://github.com/sunderee/tuples.git
+      ref: master
 ```
