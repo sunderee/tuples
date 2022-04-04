@@ -3,7 +3,7 @@ import 'package:meta/meta.dart';
 
 @immutable
 @sealed
-class Pair<A, B> extends Equatable {
+class Pair<out A, out B> extends Equatable {
   final A first;
   final B second;
 
@@ -22,7 +22,7 @@ class Pair<A, B> extends Equatable {
 
 @immutable
 @sealed
-class Triple<A, B, C> extends Equatable {
+class Triple<out A, out B, out C> extends Equatable {
   final A first;
   final B second;
   final C third;
@@ -43,7 +43,7 @@ class Triple<A, B, C> extends Equatable {
 
 @immutable
 @sealed
-class Quadruple<A, B, C, D> extends Equatable {
+class Quadruple<out A, out B, out C, out D> extends Equatable {
   final A first;
   final B second;
   final C third;
@@ -66,7 +66,7 @@ class Quadruple<A, B, C, D> extends Equatable {
 
 @immutable
 @sealed
-class Quintuple<A, B, C, D, E> extends Equatable {
+class Quintuple<out A, out B, out C, out D, out E> extends Equatable {
   final A first;
   final B second;
   final C third;
@@ -91,7 +91,7 @@ class Quintuple<A, B, C, D, E> extends Equatable {
 
 @immutable
 @sealed
-class Sextuple<A, B, C, D, E, F> extends Equatable {
+class Sextuple<out A, out B, out C, out D, out E, out F> extends Equatable {
   final A first;
   final B second;
   final C third;
