@@ -1,6 +1,6 @@
 name: tuples
 description: Collection of Kotlin-inspired named tuples (from Pair to Sextuple)
-version: 2.0.0
+version: 2.0.1
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
